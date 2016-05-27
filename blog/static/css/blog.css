@@ -8,26 +8,25 @@ body {
     padding-left:  15px;
 }
 
-#nav-bar {
-	/*Add your CSS here!*/
-	
-	left:50%;
-	margin-left:-250px;
-	position: fixed;
-	margin-top: 0px;
-}
-
-ul {
-    float: left;
-}
-
 li a, li a:active, li a:visited, li a:hover {
     text-decoration: none;
     color: white;
 }
 li {
     display: inline;
-    padding: 5px;
+    float: left;
+    font-weight: 700 ;
+    padding-right: 16px;
+    padding-left: 0px;
+}
+
+.nav-bar {
+    background-color: #e60000;
+}
+
+#nav-bar a {
+    display: block;
+    padding: 8px;
 }
 
 .page-header {
