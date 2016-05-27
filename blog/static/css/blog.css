@@ -1,14 +1,37 @@
 h1 a {
     color:  #FCA205;
-    font-family:  'Lobster';
+    font-family:  'Dosis';
+    font-weight: 900;
 }
 
 body {
     padding-left:  15px;
 }
 
+#nav-bar {
+	/*Add your CSS here!*/
+	
+	left:50%;
+	margin-left:-250px;
+	position: fixed;
+	margin-top: 0px;
+}
+
+ul {
+    float: left;
+}
+
+li a, li a:active, li a:visited, li a:hover {
+    text-decoration: none;
+    color: white;
+}
+li {
+    display: inline;
+    padding: 5px;
+}
+
 .page-header {
-    background-color: #ff9400;
+    background-color: #e60000;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -24,7 +47,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Dosis', cursive;
 }
 
 .date {
