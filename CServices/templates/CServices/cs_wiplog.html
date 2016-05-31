@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% load render_table from django_tables2 %}
+
+<h1>WIP Log</h1>
+
+{% render_table table %}
+
+<a href="wipreq">New WIP Request</a>
+
+{% endblock %}
