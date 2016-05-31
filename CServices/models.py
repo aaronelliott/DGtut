@@ -17,7 +17,10 @@ class WipReq(models.Model):
     length  = models.IntegerField()
     size    = models.IntegerField()
     cost    = models.IntegerField()
-    meth    = models.CharField(choices=METHS, max_length=20, null=True)
+    meth    = models.CharField(choices=METHS,
+                               max_length=20,
+                               null=True,
+                               verbose_name='method')
     date    = models.DateTimeField(
         blank=True, null=True)
 
